@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffdcd;
+    width: 100%;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9b4d9;
+    display: flex;
+    justify-content: right;
+    padding: 2rem 0 2rem 20rem;
+    font-size: 40px;
+    z-index: 1000;
+}
+
+.takeout .top a {
+    text-decoration: none;
+    margin-right: 5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.takeout .top a:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+    color: #d4d4c8;
+}
+
+.logo img {
+    width: 150px;
+    background-position: left;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    margin: 1.5rem 5rem 0;
+}
+
+        /* >>gambar karpet<< */
+
+@keyframes goyang-karpet {
+    50% {
+        transform: translateY(-2rem);
+    }
+}
+
+.icon-gambar1 {
+    background-image: url(img/karpet.png);
+    background-repeat: no-repeat;
+    height: 401px;
+    background-position: right;
+
+    animation: goyang-karpet 4s linear infinite; 
+}
+
+        /* teks takeout */
+
+.teks-judul {
+    background-image: url(img/teks\ take\ out.png);
+    background-repeat: no-repeat;
+    height: 105px;
+    background-position: center;
+    margin-top: 10rem;
+}
+
+.isi-teks {
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 26px;
+}
+
+.tabel-biru, .box-biru1, .box-biru2 {
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -6rem;
+}
+
+.box-biru1, .box-biru2 {
+    background-color: #f1fdff;
+    width: 350px;
+    height: 373px;
+    border: 10px solid #42cde8;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.teks-1, .teks-3 {
+    font-weight: bold;
+    margin: 1rem;    
+    font-size: 26px;
+    position: absolute;
+}
+
+.teks-2, .teks-4 {
+    text-align: justify;
+}
+
+.gambar-1 {
+    background-image: url(img/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -7rem;
+}
+
+.isi-1 {
+    margin: 18rem 2rem 0 2rem;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.isi-2 {
+    margin: 18rem 2rem 0 2rem;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.gambar-2 {
+    background-image: url(img/telpon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -7rem;
+}
+
+    /* >>kotak pink<< */
+
+.tabel-pink {
+    margin-top: 6rem;
+}
+
+.box-pink {
+    background-color: #fff;
+    width: 768px;
+    height: 611px;
+    margin: 0 auto;
+    border: 15px #fbc7be solid;
+    border-radius: 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.judul-pink {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.teks-list {
+    font-size: 24px;
+    line-height: 3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+        /* >>gambar turtle<< */
+
+@keyframes goyang-turtle {
+    50% {
+        transform: translateX(-2rem);
+    }
+}
+
+.icon-gambar2 {
+    background-image: url(img/turtle.png);
+    background-repeat: no-repeat;
+    height: 277px;
+    margin: -25rem 0 0 5rem;
+
+    animation: goyang-turtle 4s linear infinite;    
+}
+
+        /* >>gambar topi<< */
+
+@keyframes goyang-topi {
+    50% {
+        transform: translateY(-2rem);
+    }
+}
+
+.icon-gambar3 {
+    background-image: url(img/pamela-hat.png);
+    background-repeat: no-repeat;
+    height: 215px;
+    background-position: right;
+    margin: 15rem 3rem 0 0;
+
+    animation: goyang-topi 4s linear infinite;
+}
+
+
+        /* >>bagian menu<< */
+
+.garis-menu {
+    border-top: 8px #a3d3f8 solid;
+    margin-top: -2rem;
+}
+
+.kotak {
+    background-color: #fffdcd;
+    height: 150px;
+    width: 700px;
+    margin: -6rem auto;
+}
+
+.teks-menu {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: -9rem 0;
+    color: #cc6868;
+}
+
+.button-menu {
+    background-color: #ffe4f2;
+    width: 917px;
+    height: 140px;
+    border-radius: 70px;
+    margin: 15rem auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-menu a {
+    text-decoration: none;
+}
+
+.teks-menu1 {
+    font-size: 60px;
+    text-align: center;
+    color: #881a53;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-right: -4rem;
+}
+
+.icon-gambar4 img {
+    position: absolute;
+    margin-left: -5rem;
+    margin-top: 1rem;
+}
+
+.button-menu:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+    /* >>footer yaw<< */
+
+.footer {
+    background-image: url(img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 567px;
+    width: 100%;
+    margin-top: -7rem;
+}
+
+.teks-footer {
+    padding-top: 20rem;
+    line-height: 2;
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffdcd;
+    width: 100%;
+}
+
+/* homepage */
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9b4d9;
+    display: flex;
+    justify-content: right;
+    padding-left: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 40px;
+    z-index: 1000;
+}
+
+.homepage .top a {
+    text-decoration: none;
+    margin-right: 5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.homepage .top a:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+    color: #d4d4c8;
+}
+
+.logo img {
+    width: 150px;
+    background-position: left;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    margin: 1.5rem 5rem 0;
+}
+
+/* ---banner--- */
+
+.banner {
+    background-image: url(img/images/images/banner-banner_02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1100px;
+    /* width: 100%; */
+    margin-top: 4rem;
+}
+
+/* ------------------------------- */
+
+    /* sparkle */
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------- */
+
+.sparkle1 {
+    background-image: url(img/sparkle\ 1.png);
+    background-repeat: no-repeat;
+    height: 127px;
+    background-position: left;
+    padding-top: 20rem;
+    margin-left: 3rem;
+
+    animation: blink 3s infinite;
+}
+
+@keyframes blink-1 {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------- */
+
+.sparkle2 {
+    background-image: url(img/sparkle\ 2.png);
+    background-repeat: no-repeat;
+    height: 95px;
+    background-position: right;
+    margin-top: -15rem;
+    margin-right: 2rem;
+
+    animation: blink-1 2.5s infinite;
+}
+
+/* ------------------------------- */
+
+.sparkle3 {
+    background-image: url(img/sparkle\ 3.png);
+    background-repeat: no-repeat;
+    height: 83px;
+    background-position: center;
+    margin-left: 21rem;
+
+    animation: blink-2 2.7s infinite;
+}
+
+@keyframes blink-2 {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------- */
+
+.sparkle4 {
+    background-image: url(img/sparkle\ 4.png);
+    background-repeat: no-repeat;
+    height: 46px;
+    background-position: center;
+    margin-left: 27rem;
+    margin-top: -6rem;
+
+    animation: blink-3 3.2s infinite;
+}
+
+@keyframes blink-3 {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
+        /* >>gambar ban<< */
+        
+@keyframes goyang-ban {
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+.img-1 {
+    background-image: url(img/lifebuoy\ copy.png);
+    background-repeat: no-repeat;
+    height: 403px;
+    background-position: right;
+
+    animation: goyang-ban 2s linear infinite;
+}
+
+/* bagian kotak news */
+
+.news {
+    background-color: #fefbac;
+    height: 920px;
+    width: 895px;
+    margin: 0 auto;
+    padding: 3rem 5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.news, .teks-news {
+    top: -25rem;
+}
+
+.teks-news {
+    color: #706d24;
+    font-size: 100px;
+}
+
+.link-news1 {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    right: 3rem;
+    top: 4rem;
+}
+
+.link-news1:hover .motomiru,
+.link-news1:hover .button-motomiru {
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: #fff;
+}
+
+.link-news1:hover .button-motomiru img {
+    transform: scale(1.05);
+}
+
+.motomiru {
+    font-size: 26px;
+    background-color: #88d8e7;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 236px;
+    color: #0a282e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.teks-news1 {
+    font-size: 45px;
+    padding-top: 3rem;
+}
+
+.tgl-1 {
+    font-weight: lighter;
+    color: #545215;
+}
+
+.teks-1 {
+    color: #365e65;
+    padding-top: 1rem;
+    border-bottom: #0a282e solid;
+    margin-right: 6rem;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.teks-1:hover {
+    color: #f9b4d9;
+}
+
+.teks-news1 a {
+    text-decoration: none;
+}
+
+.teks-news1 a img {
+    position: absolute;
+    right: 0;
+    margin: -3rem 6rem 0 0;
+}
+
+.teks-news1 a img:hover {
+    transform: scale(1.35);
+    transition: ease 0.1s;
+}
+
+/* ---batas--- */
+
+.teks-news2 {
+    margin: 3rem 0;
+}
+
+.teks-news2 a {
+    font-size: 45px;
+}
+
+.tgl-2 {
+    font-weight: lighter;
+    color: #545215;
+}
+
+.teks-2 {
+    color: #365e65;
+    padding-top: 1rem;
+    border-bottom: #0a282e solid;
+    margin-right: 6rem;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.teks-2:hover {
+    color: #f9b4d9;
+}
+
+.teks-news2 a {
+    text-decoration: none;
+}
+
+.teks-news2 a img {
+    position: absolute;
+    right: 0;
+    margin: -3rem 6rem 0 0;
+}
+
+.teks-news2 a img:hover {
+    transform: scale(1.35);
+    transition: ease 0.1s;
+}
+
+/* ---batas--- */
+
+.teks-news3 {
+    font-size: 45px;
+}
+
+.tgl-3 {
+    font-weight: lighter;
+    color: #545215;
+}
+
+.teks-3 {
+    color: #365e65;
+    padding-top: 1rem;
+    border-bottom: #0a282e solid;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.teks-3:hover {
+    color: #f9b4d9;
+}
+
+.teks-news3 a {
+    text-decoration: none;
+}
+
+.teks-news3 a img {
+    position: absolute;
+    right: 0;
+    margin: -3rem 6rem 0 0;
+}
+
+.teks-news3 a img:hover {
+    transform: scale(1.35);
+    transition: ease 0.1s;
+}
+
+        /* >>gambar ss<< */
+
+@keyframes goyang-ss {
+    50% {
+        transform: translateX(-30px);
+    }
+}
+
+.img-2 {
+    background-image: url(img/sunscreen\ copy.png);
+    background-repeat: no-repeat;
+    height: 213px;
+    position: relative;
+    margin-left: 4rem;
+    top: -25rem;
+
+    animation: goyang-ss 4s linear infinite;
+}
+
+/* bagian menu ini ya.. */
+
+
+.garis-menu {
+    border-top: 8px #a3d3f8 solid;
+    margin-top: -2rem;
+}
+
+.kotak {
+    background-color: #fffdcd;
+    height: 150px;
+    width: 700px;
+    margin: -6rem auto;
+}
+
+.teks-menu {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: -9rem 0;
+    color: #cc6868;
+}
+
+.bungkus {
+    margin-top: 14rem;
+}
+
+.menu {
+    margin-top: -20rem;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.tombol-1 {
+    background-color: #ffe4f2;
+    border-radius: 100px;
+    padding-left: 17rem;
+    padding-top: 4rem;
+    margin: 0 auto;
+    width: 1122px;
+    height: 218px;
+    font-size: 61px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.tombol-1 p {
+    color: #881a53;
+    cursor: pointer;
+}
+
+.ember {
+    background-image: url(img/sand-bucket\ copy.png);
+    background-repeat: no-repeat;
+    height: 190px;
+    position: relative;
+    margin-left: 40rem;
+    margin-top: -8.5rem;
+}
+
+.tombol-1:hover,
+.tombol-2:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.tombol-2 {
+    background-color: #ffe4f2;
+    border-radius: 100px;
+    padding-left: 9rem;
+    padding-top: 4rem;
+    margin: 55px auto;
+    width: 1122px;
+    height: 218px;
+    font-size: 61px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.tombol-2 p {
+    color: #881a53;
+}
+
+.crab {
+    background-image: url(img/crab.png);
+    background-repeat: no-repeat;
+    height: 206px;
+    position: relative;
+    top: -9rem;
+    left: -14rem;
+}
+
+/* yg ini SNS ya.. */
+
+.teks-sns {
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.sns .teks-sns {
+    color: #2373b1;
+}
+
+.gambar-sns {
+    margin: 7rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ig,
+.yutup,
+.line,
+.x {
+    background-color: #88d8e7;
+    width: 282px;
+    height: 148px;
+    border-radius: 90px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.ig img,
+.yutup img,
+.line img,
+.x img {
+    margin-left: 5.8rem;
+    margin-top: 1.52rem;
+}
+
+.ig:hover,
+.yutup:hover,
+.line:hover,
+.x:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/* footer yaa.. */
+
+.footer {
+    background-image: url(img/footer-1_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 572px;
+}
+
+.teks-footer {
+    padding-top: 20rem;
+    line-height: 2;
+    text-align: center;
+    font-size: 20px;
+}
